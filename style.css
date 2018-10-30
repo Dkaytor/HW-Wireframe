@@ -1,79 +1,80 @@
-/**
- * Float Layout Activity
- **/
-
 * {
   box-sizing: border-box;
   text-align: center;
 }
 
 body {
-  font-size: 24px;
-  line-height: 32px;
-  color: #333;
+  font-family: 'Arial';
+  font-size: 18px;
+  color: #777;
+  background: #777;
+  width: 960px;
 }
 
 header {
   padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #FFA500;
+  margin-bottom: 10px;
+  position: relative;
+  width: 990px;
+  left: 150px;
+  color: #777;
+  background: #ebebeb;
 }
 
-section {
+#Nav {
   padding: 20px;
   margin-bottom: 20px;
-  background: #FFA500;
+  position: relative;
+  width: 990px;
+  left: 150px;
+  color: #777;
+  background: #ebebeb;
+}
+
+#full {
+  width: 990px;
+  position: relative;
+  left: 150px;
+  background: #777;
+}
+
+#aside {
+  float: right;
+  width: 48%;
+  right: 100px;
+  height: 300px;
+  padding: 20px;
+  color: #777;
+  background: #ebebeb;
+}
+
+#article {
+    position: absolute;
+    float: left;
+    height: 185px;
+    top: 100px;
+    padding: 20px;
+    width: 435px;
+    color: #ebebeb;
+    background: #777;
 }
 
 #left {
   float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #30948D;
-}
-
-#middle {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #9E1212;
-}
-
-#right {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #30948D;
-}
-
-#full {
-  width: 100%;
-  overflow: auto;
-  clear: both;
-  color: #fff;
-  background: #394549;
-}
-
-#division {
+  width: 48%;
+  height: 300px;
   padding: 20px;
-  margin-top: 20px;
-  background: #214fb3;
-}
-
-aside {
-  float: left;
-  width: 33%;
-  height: 200px;
-  padding: 20px;
-  margin-left: 30px;
-  text-decoration-color: white;
-  background: #a6b747;
-  border: 1px solid #eee;
+  color: #777;
+  background: #ebebeb;
 }
 
 footer {
-  padding: 20px;
   clear: both;
-  background: #FFA500;
+  position: relative;
+  padding: 20px;
+  width: 990px;
+  top: 20px;
+  left: 150px;
+  color: #777;
+  background: #ebebeb;
 }
