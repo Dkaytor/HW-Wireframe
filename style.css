@@ -59,6 +59,26 @@ header {
     background: #777;
 }
 
+#headers {
+    color: #777;
+    background: #ebebeb;
+    font-size: 18px;
+    height: 40px;
+    padding: 20px;
+    width: 400px;
+}
+
+#p {
+    color: #777;
+    background: #ebebeb;
+    clear: both;
+    font-size: 18px;
+    height: 40px;
+    padding: 20px;
+    width: 400px;
+
+}
+
 #left {
   float: left;
   width: 48%;
