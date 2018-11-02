@@ -64,8 +64,10 @@ header {
     background: #ebebeb;
     font-size: 18px;
     height: 40px;
-    padding: 20px;
+    padding: 10px;
     width: 400px;
+    margin-right: 10px;
+    margin-top: 30px;
 }
 
 #p {
@@ -74,8 +76,10 @@ header {
     clear: both;
     font-size: 18px;
     height: 40px;
-    padding: 20px;
+    padding: 10px;
     width: 400px;
+    margin: 10px 10px 10px 0px;
+    right: 20px;
 
 }
 
